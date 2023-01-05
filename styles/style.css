@@ -199,3 +199,32 @@ hr{
     margin-top: 50px;
     text-align: center;
 }
+
+/* Content styles */
+
+.content{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+
+.content .section-title{
+    text-align: left;
+}
+.content .section-description{
+    color: #474747;
+    font-weight: 400;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
